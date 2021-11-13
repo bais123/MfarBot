@@ -256,8 +256,8 @@ const daftar1 = `Hallo kak ${pushname}
 
 Silahkan tekan Button dibawah.
 *NOTE : Mendaftar hanya bisa sekali!*`
-const daftar2 = '*Created © Xrutz Official*'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `Meng Daftar`,},type: 1,},]
+const daftar2 = '*Created © Xrutz*'
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `Daftar`,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -270,7 +270,7 @@ Mufar.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-            "title": `© Whatsapp-SelfBot\nXrutz Bot (@rellnjoy_)\n• Follow my Instagram!`,
+            "title": `© Whatsapp-SelfBot\nBais Bot (@bais.007)\n• Follow my Instagram!`,
             "body": "",
             "previewType": "PHOTO",
             "thumbnailUrl": "https://telegra.ph/file/bbb5eca08130920edbcb4.jpg",
@@ -323,7 +323,7 @@ const sendButImage = async (from, context, fortext, img, but, mek) => {
 
 const xrtz = { 
 "title": `Hallo ${pushname}`,
-"body": `Xrutz`, 
+"body": `Bais`, 
 "mediaType": "2", 
 "mediaUrl": "https://youtu.be/ilrhJV_QMIE", 
 "thumbnail": fs.readFileSync('./src/Mufar.jpg')
@@ -563,23 +563,23 @@ switch(jamss){
 case 0: jamss = "Selamat Malam"; break;
 case 1: jamss = "Selamat Malam"; break;
 case 2: jamss = "Selamat Malam"; break;
-case 3: jamss = "Selamat Malam"; break;
-case 4: jamss = "Selamat Malam"; break;
+case 3: jamss = "Selamat Pagi"; break;
+case 4: jamss = "Selamat Pagi"; break;
 case 5: jamss = "Sholat Subuh"; break;
 case 6: jamss = "Selamat Pagi"; break;
 case 7: jamss = "Selamat Pagi"; break;
 case 8: jamss = "Selamat Pagi"; break;
 case 9: jamss = "Selamat Pagi"; break;
 case 10: jamss = "Selamat Pagi"; break;
-case 11: jamss = "Selamat Sore"; break;
-case 12: jamss = "Sholat Zuhur"; break;
-case 13: jamss = "Selamat Sore"; break;
-case 14: jamss = "Selamat Sore"; break;
-case 15: jamss = "Sholat Ashar"; break;
+case 11: jamss = "Selamat Siang"; break;
+case 12: jamss = "Selamat Siang"; break;
+case 13: jamss = "Selamat Siang"; break;
+case 14: jamss = "Selamat Siang"; break;
+case 15: jamss = "Selamat Sore"; break;
 case 16: jamss = "Selamat Sore"; break;
 case 17: jamss = "Selamat Petang"; break;
-case 18: jamss = "Sholat Maghrib"; break;
-case 19: jamss = "Sholat Isha"; break;
+case 18: jamss = "Selamat Petang"; break;
+case 19: jamss = "Selamat Petang"; break;
 case 20: jamss = "Selamat Malam"; break;
 case 21: jamss = "Selamat Malam"; break;
 case 22: jamss = "Selamat Malam"; break;
@@ -742,7 +742,7 @@ menuk =`${tampilUcapan}, ${pushname}
 *Mode Type : ${publik ? 'Public' : 'Self'} Bot*
 
 *• About Owner*
-Youtube : Xrutz Official
+Instagram : @bais.007
 No Whatsapp : @${owner}
 
 *• User Info :*
@@ -750,14 +750,14 @@ Status : ${isOwner ? 'Owner' : 'Gratisan'}
 UserName : ${pushname}
 Nomor : ${sender.split("@")[0]}
 
-*• XrutzBot Stats :*
+*• BaisBot Stats :*
 Name : ${botName}
 Creator : ${ownerName}
 Prefix : Multi Prefix
 Runtime : ${runtime(on)}`
 
 futer =`
-*X R U T Z B O T 濾*
+*B A I S  B O T 濾*
 ${week}, ${calender} 
 
 *• Random Menu :*
